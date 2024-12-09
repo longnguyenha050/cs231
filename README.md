@@ -1,10 +1,8 @@
 ### Các yêu cầu cần thiết:
-- file này cần tải các dataset liên quan, bao gốm: query image, index image, train image, test.csv (file danh sách tên ảnh trong index query).
-- các thư viện kèm theo: python 3.9.18, fastai, pytorch, torchvision, numpy 1.23.0, pandas 1.5.3, pretrainedmodel.
-- sử dụng model resnet152 đã được pretrained trên tập dữ liệu imagenet1k.
-- cần thêm 2 phương pháp trích xuất đặc trưng.
+- chạy bằng Kaggle GPU, sử dụng dataset input từ deepfashion (của Thu Phương)
+- các model sau khi chạy xong thì phải lưu lại dưới dạng tên là ""extractor/siemese"+"tên mô hình".pth" (vd extractorResnet152.pth)
+- sau khi có model thì up load file notebook đã chạy và model lên git để các thành viên khác tiện theo dõi (vd chạy 3 mô hình thì up cả 3 lần chạy để lấy thông tin đánh giá và so sánh)
   
 ### Thứ tự để chạy các file:
-- đối với Cs231: extractor -> nnsearch -> basic
-- đối với Cs336: extractor -> siemese -> nnsearch -> basic
+- extractor -> siemese -> nnsearch
   
